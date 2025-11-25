@@ -1,6 +1,6 @@
 # 🏨 Hotel Booking Cancellation Prediction
 
-[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue.svg)](https://www.kaggle.com/c/hotel-booking-cancellation-mlp-ka2)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue.svg)](https://www.kaggle.com/competitions/mlp-term-3-2025-kaggle-assignment-2)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains a machine learning project to predict hotel booking cancellations. It was developed for a Kaggle competition as part of the Machine Learning Practice course at IIT Madras.
@@ -77,4 +77,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 💬 Contact
 
-Kashyap Rahul - [your-email@example.com] - [LinkedIn Profile]
+Kashyap Rahul - [ikashyaprahull@gmail.com ] - [https://www.linkedin.com/in/kashyaprahul2002/]
