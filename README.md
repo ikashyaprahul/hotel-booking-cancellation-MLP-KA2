@@ -1,117 +1,80 @@
 # 🏨 Hotel Booking Cancellation Prediction
 
-**IIT Madras – Machine Learning Practice (Kaggle Assignment 2)**
-**Author: Kashyap Rahul**
+[![Kaggle](https://img.shields.io/badge/Kaggle-Competition-blue.svg)](https://www.kaggle.com/c/hotel-booking-cancellation-mlp-ka2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+This repository contains a machine learning project to predict hotel booking cancellations. It was developed for a Kaggle competition as part of the Machine Learning Practice course at IIT Madras.
 
-## 📌 Overview
+## 📝 Table of Contents
 
-This project predicts whether a hotel booking will be **cancelled or not**.
-It was completed as part of **Kaggle Assignment 2** for the *Machine Learning Practice* course at IIT Madras.
+- [Key Features](#-key-features)
+- [Technology Stack](#-technology-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [License](#-license)
+- [Contact](#-contact)
 
-The goal is to build a complete machine learning pipeline that includes:
+## 🔑 Key Features
 
-* Data cleaning
-* Feature engineering
-* EDA & visualizations
-* Categorical encoding
-* Model training (7 models)
-* Hyperparameter tuning (3 models)
-* Choosing the best model
-* Generating a valid Kaggle submission
+- **Data Preprocessing:** Cleans and preprocesses data by handling missing values and engineering new features from date columns.
+- **Exploratory Data Analysis (EDA):** Visualizes key data distributions and correlations.
+- **Model Training:** Trains 7 different machine learning models to predict cancellations.
+- **Hyperparameter Tuning:** Optimizes the 3 best-performing models for improved accuracy.
+- **Automated Model Selection:** Automatically selects the best model, retrains it on the full dataset, and generates a submission file.
 
----
+## 💻 Technology Stack
 
-## 📁 Repository Structure
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- LightGBM
 
-```
-hotel-booking-cancellation-MLP-KA2/
-│
-├── notebook/
-│   └── 23f1003149.ipynb   
-│
-├── data/
-├── results/
-├── src/
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+## 🚀 Installation
 
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ikashyaprahul/hotel-booking-cancellation-MLP-KA2
+   cd hotel-booking-cancellation-MLP-KA2
+   ```
 
----
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🧠 What’s Inside the Notebook
+3. **Download the dataset:**
+   - Download the data from the [Kaggle competition page](https://www.kaggle.com/c/hotel-booking-cancellation-mlp-ka2/data).
+   - Place `train.csv`, `test.csv`, and `sample_submission.csv` in the `data/` directory.
 
-### ✔ Data preprocessing
+## ▶️ Usage
 
-* Handling missing values
-* Converting and extracting date features
-* Creating new features like `total_days`, `total_people`, `price_per_person`
-* One-hot encoding categorical columns
+1. **Navigate to the notebook directory:**
+   ```bash
+   cd notebook
+   ```
 
-### ✔ Exploratory Data Analysis
+2. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook 23f1003149.ipynb
+   ```
 
-* Booking status distribution
-* Price distribution
-* Correlation heatmap
+3. **Run the cells:**
+   - Execute the cells in the notebook to run the machine learning pipeline.
+   - The final `submission.csv` will be saved in the `results/` directory.
 
-### ✔ Model Building (7 Models)
+## 🏆 Results
 
-* Logistic Regression
-* Random Forest
-* Gradient Boosting
-* AdaBoost
-* KNN
-* XGBoost
-* LightGBM
-
-### ✔ Hyperparameter Tuning (3 Models)
-
-* Random Forest
-* XGBoost
-* LightGBM
-
-### ✔ Final Model
-
-The best-performing model is selected automatically, retrained on the full dataset, and used to generate `submission.csv`.
-
----
-
-## ▶ Running the Notebook
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Add the Kaggle dataset manually to the `data/` folder:
-
-```
-train.csv
-test.csv
-sample_submission.csv
-```
-
-Then open the notebook:
-
-```bash
-jupyter notebook notebook/KA2_notebook.ipynb
-```
-
----
+The project achieves high accuracy in predicting booking cancellations. The best model is selected based on validation set performance, and a `submission.csv` file is generated for the Kaggle competition. For detailed results, refer to the Jupyter Notebook.
 
 ## 📄 License
 
-Released under the **MIT License**.
-
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 💬 Contact
 
-If you’d like to connect or discuss improvements, feel free to reach out!
-
---
+Kashyap Rahul - [your-email@example.com] - [LinkedIn Profile]
