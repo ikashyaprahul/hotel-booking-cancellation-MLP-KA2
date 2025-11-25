@@ -28,11 +28,11 @@ The goal is to build a complete machine learning pipeline that includes:
 ```
 ├── README.md
 ├── notebook/
-│   └── KA2_notebook.ipynb        # main notebook (your code)
+│   └── KA2_notebook.ipynb        # main notebook 
 ├── results/
 │   ├── plots/                    # saved EDA plots
 │   └── submission.csv            # final Kaggle submission
-├── data/                         # (empty - Kaggle data not uploaded)
+├── data/                        
 ├── requirements.txt
 ├── .gitignore
 └── LICENSE
