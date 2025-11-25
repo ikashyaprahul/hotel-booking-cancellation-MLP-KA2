@@ -48,7 +48,7 @@ This repository contains a machine learning project to predict hotel booking can
    ```
 
 3. **Download the dataset:**
-   - Download the data from the [Kaggle competition page](https://www.kaggle.com/c/hotel-booking-cancellation-mlp-ka2/data).
+   - Download the data from the [Kaggle competition page](https://www.kaggle.com/competitions/mlp-term-3-2025-kaggle-assignment-2).
    - Place `train.csv`, `test.csv`, and `sample_submission.csv` in the `data/` directory.
 
 ## ▶️ Usage
