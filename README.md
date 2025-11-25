@@ -26,16 +26,19 @@ The goal is to build a complete machine learning pipeline that includes:
 ## 📁 Repository Structure
 
 ```
-├── README.md
+hotel-booking-cancellation-MLP-KA2/
+│
 ├── notebook/
-│   └── KA2_notebook.ipynb        # main notebook 
+│   └── 23f1003149.ipynb   
+│
+├── data/
 ├── results/
-│   ├── plots/                    # saved EDA plots
-│   └── submission.csv            # final Kaggle submission
-├── data/                        
+├── src/
 ├── requirements.txt
 ├── .gitignore
-└── LICENSE
+├── LICENSE
+└── README.md
+
 ```
 
 ---
